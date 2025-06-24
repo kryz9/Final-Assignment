@@ -1,11 +1,12 @@
-_**1. Project Title**_
+_**1. Project Title:**_
 Smart Flood Detection and Alert System Using ESP32
 
-_**2. Project Description**_
-Problem Statement
+_**2. Project Description:**_
+
+**Problem Statement:**
 Flooding poses a significant risk to homes, especially in low-lying areas. Without timely alerts, property damage and safety risks can escalate rapidly. Many households lack affordable and reliable flood detection systems.
 
-**Objective**
+**Objective:**
 To develop a smart, cost-effective flood detection system that monitors water level, distance from water surface, temperature, and humidity in near real-time, and provides visual insights through a web interface.
 How the Selected Sensors Solve the Problem
 - Ultrasonic Sensor: Measures the distance between the water surface and sensor, indicating rising water levels.
@@ -13,7 +14,7 @@ How the Selected Sensors Solve the Problem
 - DHT11: Monitors ambient temperature and humidity, which are environmental indicators often related to weather changes.
 - ESP32: Collects sensor data and sends it to a server through Wi-Fi for real-time monitoring.
 
-_**3. Schematic (Circuit Diagram)**_
+_**3. Schematic (Circuit Diagram):**_
 Tools used: Custom PCB with ESP32 and Breadboard prototype
 
 **ESP32 Pins:**
@@ -23,7 +24,7 @@ Tools used: Custom PCB with ESP32 and Breadboard prototype
 - Relay: GPIO 17
 - OLED: I2C (GPIO 21 SDA, GPIO 22 SCL)
 
-_**4. Arduino Code**_
+_**4. Arduino Code:**_
 Refer to your ESP32-Final.ino sketch.
 Key features:
 - WiFi connectivity
@@ -32,7 +33,7 @@ Key features:
 - JSON-formatted data
 - Automatic relay handling possible if implemented
 
-_**5. Web Interface**_
+_**5. Web Interface:**_
 Developed in PHP + Highcharts.js
 
 Link to website: _https://mexaze.com.my/_
