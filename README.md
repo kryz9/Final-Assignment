@@ -8,7 +8,8 @@ Flooding poses a significant risk to homes, especially in low-lying areas. Witho
 
 **Objective:**
 To develop a smart, cost-effective flood detection system that monitors water level, distance from water surface, temperature, and humidity in near real-time, and provides visual insights through a web interface.
-How the Selected Sensors Solve the Problem
+
+**How the Selected Sensors Solve the Problem:**
 - Ultrasonic Sensor: Measures the distance between the water surface and sensor, indicating rising water levels.
 - Water Sensor: Detects the presence and intensity of water (wetness), helping confirm flood conditions.
 - DHT11: Monitors ambient temperature and humidity, which are environmental indicators often related to weather changes.
